@@ -8,7 +8,7 @@ Step 2: Create Redux Store with Redux Toolkit
 
 We will use configureStore() from Redux Toolkit.
 Inside the src folder, create a new folder named redux, then create a file:
-
+store.js
 --------------------------------------------------------------------------------------
 
 Step 3: Create a Redux Slice
