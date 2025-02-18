@@ -1,3 +1,10 @@
+Step 1: Setup a React App
 npx create-react-app .
 
 npm install @reduxjs/toolkit react-redux
+
+----------------------------------------------------------------
+Step 2: Create Redux Store with Redux Toolkit
+
+We will use configureStore() from Redux Toolkit.
+Inside the src folder, create a new folder named redux, then create a file:
