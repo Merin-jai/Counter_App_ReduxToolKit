@@ -3,8 +3,22 @@ npx create-react-app .
 
 npm install @reduxjs/toolkit react-redux
 
-----------------------------------------------------------------
+----------------------------------------------------------------------------------------
 Step 2: Create Redux Store with Redux Toolkit
 
 We will use configureStore() from Redux Toolkit.
 Inside the src folder, create a new folder named redux, then create a file:
+
+--------------------------------------------------------------------------------------
+
+Step 3: Create a Redux Slice
+Now, inside the redux folder, create another file:
+📁 src/redux/counterSlice.js
+
+-------------------------------------------------------------------------------------
+Step 4:
+✔ Connect Redux to React
+To use Redux in components, we will:
+
+Use useSelector() to get the counter value.
+Use useDispatch() to trigger actions.
